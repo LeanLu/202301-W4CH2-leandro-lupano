@@ -20,8 +20,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test jest --watchAll --coverage",
-    "test:prod": "react-scripts test jest --watchAll --coverage --watchAll=false",
+    "test": "react-scripts test --watchAll --coverage",
+    "test:prod": "react-scripts test --watchAll --coverage --watchAll=false",
     "eject": "react-scripts eject",
     "prepare": "husky install"
   },
@@ -44,6 +44,7 @@
     ]
   },
   "devDependencies": {
-    "husky": "^8.0.0"
+    "husky": "^8.0.0",
+    "sass": "^1.58.0"
   }
 }
