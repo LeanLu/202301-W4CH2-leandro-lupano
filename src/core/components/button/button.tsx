@@ -11,6 +11,7 @@ export function Button({ menuOptions }: AppRouterProps) {
     if (counter === 2) return;
     setCounter(counter + increment);
   };
+
   useEffect(() => {}, [counter]);
 
   return (
