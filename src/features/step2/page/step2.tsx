@@ -30,8 +30,6 @@ export default function Step2() {
           </select>
         </label>
       </form>
-
-      <Button></Button>
     </>
   );
 }

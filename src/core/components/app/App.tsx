@@ -1,4 +1,5 @@
 import { AppRouter } from "../app.router/app.router";
+import { Button } from "../button/button";
 import { Header } from "../header/header";
 import "./App.css";
 
@@ -17,6 +18,7 @@ function App() {
     <div className="App">
       <Header></Header>
       <AppRouter menuOptions={menuOptions}></AppRouter>
+      <Button menuOptions={menuOptions}></Button>
     </div>
   );
 }

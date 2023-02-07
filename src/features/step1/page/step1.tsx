@@ -40,7 +40,6 @@ export default function Step1() {
         ¿Desea recibir información de nuestra newsletter?
         <input type="checkbox" />
       </label>
-      <Button></Button>
     </form>
   );
 }

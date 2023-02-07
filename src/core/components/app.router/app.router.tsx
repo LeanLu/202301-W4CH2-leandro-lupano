@@ -7,7 +7,7 @@ const Step1 = lazy(() => import("../../../features/step1/page/step1"));
 const Step2 = lazy(() => import("../../../features/step2/page/step2"));
 const Step3 = lazy(() => import("../../../features/step2/page/step2"));
 
-type AppRouterProps = {
+export type AppRouterProps = {
   menuOptions: MenuOption[];
 };
 
