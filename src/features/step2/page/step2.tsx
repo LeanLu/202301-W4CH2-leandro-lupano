@@ -1,4 +1,3 @@
-import { Button } from "../../../core/components/button/button";
 import "./step2.scss";
 
 export default function Step2() {
