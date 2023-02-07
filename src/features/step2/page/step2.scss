@@ -1,0 +1,23 @@
+.step2 {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+
+  & label {
+    font-size: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    input {
+      margin: 0.5rem 1rem;
+    }
+
+    select {
+      margin: 0.5rem 1rem;
+    }
+  }
+}
